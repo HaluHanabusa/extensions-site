@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Browser Extensions</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.65; }
+    h1 { font-size: 1.7rem; margin-bottom: .2rem; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: .3rem; }
+    .meta { opacity: .7; font-size: .9rem; }
+    table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+    th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #8884; vertical-align: top; }
+    code { font-size: .9em; }
+    .ja { opacity: .8; font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Applies to all browser extensions published by <strong>halulab</strong> (the "Developer"). Last updated: 2026-09-10.</p>
+
+  <h2>Summary</h2>
+  <p>Our extensions run entirely inside your browser. They <strong>never send page content, URLs, selected text, or personal data</strong> to us or to anyone else. The only network traffic is (1) anonymous usage counts and (2) a purchase check when you buy a paid upgrade.</p>
+  <p class="ja">要約: 当方の拡張機能はすべてブラウザ内で動作し、ページ内容・URL・選択テキスト・個人情報を外部に送信しません。通信は「匿名の利用回数の集計」と「有料版購入時のライセンス確認」の 2 つだけです。</p>
+
+  <h2>Extensions covered</h2>
+  <table>
+    <tr><th>Extension</th><th>What it reads</th><th>Where the data goes</th></tr>
+    <tr>
+      <td>Find in Page: Highlight All &amp; Multi Highlight</td>
+      <td>The visible text of the page you are viewing, only to find matches for the text you selected. Your settings and pinned words are stored on your device (<code>chrome.storage.local</code>).</td>
+      <td>Stays in your browser. Nothing from the page is transmitted.</td>
+    </tr>
+    <tr>
+      <td>Copy Table to CSV / Excel – Table Capture</td>
+      <td>The tables on the page you are viewing, only after you click the extension icon or context menu. The exported file is generated locally.</td>
+      <td>Stays in your browser. Table contents are never uploaded.</td>
+    </tr>
+  </table>
+
+  <h2>Data we collect</h2>
+  <p><strong>Anonymous usage counts.</strong> To know whether an extension is being used, we send a small number of event names (install, first use, feature used, upgrade screen shown, purchase) to Google Analytics 4 via its Measurement Protocol. Each install generates a random identifier stored on your device so events are not double-counted. These events contain no page content, URLs, search terms, or personal identifiers. You can disable this in the extension's options where available.</p>
+  <p><strong>Purchases.</strong> Paid upgrades are sold and processed by <a href="https://polar.sh">Polar</a> (Polar Software Inc.), acting as merchant of record. Polar receives the e-mail address you enter at checkout, handles the payment and the tax, and issues you a licence key. When you paste that key into the extension, the extension sends <strong>only the key and our organisation ID</strong> to <code>api.polar.sh</code> and gets back a valid / not valid answer. It does not send the page you are on, the text you selected, your table data, your e-mail address, or any identifier of you. The answer is remembered on your device for up to 7 days so the check does not repeat on every use. We never see or store card details.</p>
+
+  <h2>Data we do not collect</h2>
+  <p>Browsing history, page content, form inputs, credentials, cookies, selected or copied text, exported files, or any personally identifiable information. We do not use uninstall tracking, and we do not sell or share data with third parties.</p>
+
+  <h2>Permissions</h2>
+  <p>Each extension requests only the permissions it needs. Typical ones: <code>activeTab</code> / <code>scripting</code> (read the current page when you click), <code>storage</code> (save your settings on your device), <code>contextMenus</code> (right-click menu). An extension that must react the moment you select text (such as the highlighter) needs to be present on every page, which Chrome describes as "read and change all your data on all websites"; it reads the page locally and changes nothing. The full justification for each permission is listed on that extension's Chrome Web Store page.</p>
+
+  <h2>Retention</h2>
+  <p>Anonymous analytics are kept according to Google Analytics' default retention settings. Settings and licence status stay on your device until you uninstall the extension.</p>
+
+  <h2>Changes</h2>
+  <p>If we change what an extension collects, this page and the extension's store listing are updated before the change ships.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, bug reports, or data requests: <a href="mailto:halulab.contact@gmail.com">halulab.contact@gmail.com</a>. We reply within one week. See also the <a href="terms.html">Terms of Sale and Use</a>, which covers refunds.</p>
+</body>
+</html>
